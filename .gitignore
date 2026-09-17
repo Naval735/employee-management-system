@@ -1,0 +1,50 @@
+## ====================================================================
+## Employee Management System - Git Ignore Configuration
+## ====================================================================
+
+# Build results and binaries
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VSCode
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Local SQLite databases & temporary files
+*.db
+*.db-shm
+*.db-wal
+test_*.xlsx
+test_*.pdf
+e2e_test.*
+
+# Node.js / Vite / React frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.production
+.env.local
+*.pfx
+*.rsa
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
